@@ -1,0 +1,37 @@
+# Input and output data
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+
+# Models (downloaded separately, see README)
+models/
+*.bin
+*.gguf
+
+# Personal notes and temporary files
+notes/
+tmp/
+
+# Media
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.m4a
+
+# Secrets and environments
+.env*
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# System and IDE
+.DS_Store
+.idea/
+.vscode/
+.claude/
